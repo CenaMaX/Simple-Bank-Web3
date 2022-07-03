@@ -216,6 +216,7 @@ function App() {
     getBankName();
     getBankOwner();
     getCustomerBalance();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (!haveMetamask) toast(toastConfig);
